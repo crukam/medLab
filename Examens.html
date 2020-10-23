@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel= "stylesheet" type="text/css" href="css/patient.css">
+	<link rel= "stylesheet" type="text/css" href="css/examen.css">
     <title>Medical Lab</title>
   </head>
 <body>
@@ -30,10 +31,107 @@
 		</nav>
 	</div>
 	<div class = "container">
+		<h2 style="text-align: center;">Bilan</h2>
 		<div class= "row">
-			<button>Bilan renal</button>
-			<button>Bilan Hepatique</button>
-			<button></button>
+			<div class= "col-sm-3">
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" > Renal</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" > Hepatique</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Diabetique</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Libidic</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Goutteux et proteique</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Electrolytic</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Rhumatismal</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Inflammatoire</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Serologique</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Serologie de l'UGD</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Serologie syphilitique</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Fertilite</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Thyroidien</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Tumoraux</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Hematologie</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Bacteriologie</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >LCR et Liquide de pontion</button>
+				<button type="button" class="btn btn-lg btn-primary btn-bilan" >Micologique</button>
+			</div>
+			<div class = "col-sm-9">
+				<div class="container">
+					<table class="table table-bordered table-striped table-responsive-stack"  id="tableOne">
+					   <thead class="thead-dark">
+						  <tr>
+							 <th>Parametres</th>
+							 <th>Resultats</th>
+							 <th>Reference</th>
+							 <th>Actions</th>
+						  </tr>
+					   </thead>
+					   <tbody>
+						  <tr>
+							 <td></td>
+							 <td><input class = "inp-res" type= "text" name= "" value=""></td>
+							 <td></td>
+							 <td>
+								<button class=" btn btn-secondary btn-sm btn-actin">Proceed</button>
+								<button class="btn btn-secondary btn-sm btn-actout">Invoice</button>
+								<button class="btn btn-secondary btn-sm btn-actin">Validate</button>
+							</td>
+						  </tr>
+						  <tr>
+							<td></td>
+							<td><input class = "inp-res" type= "text" name= "" value=""></td>
+							<td></td>
+							<td>
+								<button class=" btn btn-secondary btn-sm btn-actin">Proceed</button>
+								<button class="btn btn-secondary btn-sm btn-actout">Invoice</button>
+								<button class="btn btn-secondary btn-sm btn-actin">Validate</button>
+						   </td>
+						  </tr>
+						  <tr>
+							<td></td>
+							<td><input class = "inp-res" type= "text" name= "" value=""></td>
+							<td></td>
+							<td>
+								<button class=" btn btn-secondary btn-sm btn-actin">Proceed</button>
+								<button class="btn btn-secondary btn-sm btn-actout">Invoice</button>
+								<button class="btn btn-secondary btn-sm btn-actin">Validate</button>
+						   </td>
+						  </tr>
+						  <tr>
+							<td></td>
+							<td><input class = "inp-res" type= "text" name= "" value=""></td>
+							<td></td>
+							<td>
+								<button class=" btn btn-secondary btn-sm btn-actin">Proceed</button>
+								<button class="btn btn-secondary btn-sm btn-actout">Invoice</button>
+								<button class="btn btn-secondary btn-sm btn-actin">Validate</button>
+						   </td>
+						  </tr>
+						  <tr>
+							<td></td>
+							 <td><input class = "inp-res" type= "text" name= "" value=""></td>
+							 <td></td>
+							 <td>
+								<button class=" btn btn-secondary btn-sm btn-actin">Proceed</button>
+								<button class="btn btn-secondary btn-sm btn-actout">Invoice</button>
+								<button class="btn btn-secondary btn-sm btn-actin">Validate</button>
+						   </td>
+						  </tr>
+					   </tbody>
+					</table>
+				</div>
+				<div class= "container"><h2>Invoice</h2>
+					<table class="table table-bordered table-striped table-responsive-stack"  id="tableOne">
+					   <thead class="thead-dark">
+						  <tr>
+							 <th>Invoice</th>
+						  </tr>
+					   </thead>
+					   <tbody>
+						<tr>
+							 <td></td>
+						</tr>
+					   </tbody>
+					</table></div>
+			</div>
 		</div>
 	</div>
 </body>

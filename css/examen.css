@@ -1,0 +1,15 @@
+.btn-bilan {
+	background-color: #343a40;
+	border-color: #343a40;
+	margin: 0.2rem;
+	width: 100%;
+}
+.inp-res {
+	width: 15%;
+}
+.btn-actin {
+	background-color: yellowgreen;
+}
+.btn-actout {
+	background-color: violet;
+}
